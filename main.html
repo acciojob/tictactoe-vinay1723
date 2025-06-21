@@ -4,10 +4,39 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+		<h1>TIC TAC TOE</h1>
+		<form>
+			<label>Player 1
+				<input type="text" id="player-1" name="player" placeholder="enter name"/>
+			</label>
+			<br/>
+			<br/>
+			<label>Player 2
+				<input type="text" id="player-2" placeholder="enter name"/>
+			</label>
+			<br/>
+			<br/>
+			<button id="submit" type="submit">Start Game</button>
+		</form>
+        <div class="message"></div>
+		<div class="board">
+			<div id="1"></div>
+			<div id="2"></div>
+			<div id="3"></div>
+			<div id="4"></div>
+			<div id="5"></div>
+			<div id="6"></div>
+			<div id="7"></div>
+			<div id="8"></div>
+			<div id="9"></div>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 

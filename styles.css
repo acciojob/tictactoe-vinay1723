@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+* {
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+
+h1{
+	text-align:center
+	
+}
+
+form {
+	margin:20px;
+}
+
+.board {
+	display:none;
+	grid-template-columns:repeat(3,1fr);
+	
+	grid-template-rows:repeat(3,1fr);
+	
+	margin:20px;
+}
+
+
+div[id]{
+	width:100px;
+	height:100px;
+	background-color:#FFC0CB;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:35px;
+	border:1px solid black;
+}
+
+.message {
+	display:none;
+	text-align:center;
+	margin:5px;
+	font-size:18px;
+	font-weight:600px;
+}
+
+.highlight {
+	background-color:#800080 !important;
+}
