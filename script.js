@@ -42,7 +42,7 @@ board.addEventListener("click", (e) => {
     if (playerMarks.filter((mark) => mark !== "").length >= 5) {
 	  const winningPattern = checkWinner(playerMarks, currentPlayer.mark);
       if (winningPattern) {
-        playerHeading.textContent = `${currentPlayer.name}, congratulations you won!`;
+        playerHeading.textContent = `${currentPlayer.name} congratulations you won!`;
         board.style.pointerEvents = "none";
 		winningPattern.forEach((index) => {
 			document.getElementById((index+1).toString()).classList.add('highlight');
