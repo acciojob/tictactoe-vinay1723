@@ -8,11 +8,11 @@ let currentPlayer;
 
 const playerNum1 = {
   name: "",
-  mark: "X",
+  mark: "x",
 };
 const playerNum2 = {
   name: "",
-  mark: "O",
+  mark: "o",
 };
 
 const playerMarks = new Array(9).fill("");
