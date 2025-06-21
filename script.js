@@ -1,8 +1,8 @@
 //your JS code here. If required.
 const form = document.querySelector("form");
 const board = document.querySelector(".board");
-const player1 = document.getElementById("player-1");
-const player2 = document.getElementById("player-2");
+const player1 = document.getElementById("player1");
+const player2 = document.getElementById("player2");
 const playerHeading = document.querySelector(".message");
 let currentPlayer;
 
